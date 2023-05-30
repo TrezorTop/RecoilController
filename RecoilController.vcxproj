@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="RecoilController.cpp" />
+    <ClCompile Include="AppState\AppState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="controllers\MouseController\MouseController.cpp" />
+    <ClCompile Include="utils\utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppState\AppState.h" />
+    <ClInclude Include="controllers\MouseController\MouseController.h" />
+    <ClInclude Include="utils\utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
