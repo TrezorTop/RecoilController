@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AppState\AppState.cpp">
+    <ClCompile Include="src\AppState\AppState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="controllers\MouseController\MouseController.cpp">
+    <ClCompile Include="src\controllers\MouseController\MouseController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils\utilities.cpp">
+    <ClCompile Include="src\utils\utilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AppState\AppState.h">
+    <ClInclude Include="src\AppState\AppState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="controllers\MouseController\MouseController.h">
+    <ClInclude Include="src\controllers\MouseController\MouseController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils\utilities.h">
+    <ClInclude Include="src\utils\utilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
