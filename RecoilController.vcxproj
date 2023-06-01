@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\listeners\HotkeyListener\HotkeyListener.cpp" />
     <ClCompile Include="src\AppState\AppState.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\controllers\MouseController\MouseController.cpp" />
     <ClCompile Include="src\utils\utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\listeners\HotkeyListener\HotkeyListener.h" />
     <ClInclude Include="src\AppState\AppState.h" />
     <ClInclude Include="src\controllers\MouseController\MouseController.h" />
     <ClInclude Include="src\utils\utilities.h" />

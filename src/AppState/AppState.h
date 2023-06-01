@@ -3,6 +3,12 @@
 #include <vector>
 
 struct ConfigNode {
+  ConfigNode(int deltaX, int deltaY, std::chrono::milliseconds time) {
+    this->deltaX = deltaX;
+    this->deltaY = deltaY;
+    this->time = time;
+  }
+
   int deltaX;
   int deltaY;
   std::chrono::milliseconds time;
@@ -11,14 +17,12 @@ struct ConfigNode {
 typedef std::vector<ConfigNode> Config;
 
 class AppState {
-public:
+ public:
   bool isActive = false;
 
-  void SetSettings(const Config &settings);
+  void SetConfig(const Config &config);
   Config &GetConfig();
 
-private:
-  Config config = {{0, 20, std::chrono::milliseconds(400)},
-                   {0, 10, std::chrono::milliseconds(700)},
-                   {3, 7, std::chrono::milliseconds(500)}};
+ private:
+  Config config;
 };

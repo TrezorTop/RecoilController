@@ -1,3 +1,3 @@
 #include "AppState.h"
-void AppState::SetSettings(const Config &settings) { this->config = settings; }
+void AppState::SetConfig(const Config &config) { this->config = config; }
 Config &AppState::GetConfig() { return this->config; }
