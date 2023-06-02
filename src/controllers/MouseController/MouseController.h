@@ -2,6 +2,6 @@
 #include <windows.h>
 
 class MouseController {
- public:
-  static void MoveMouse(int deltaX, int deltaY);
+public:
+	static void MoveMouse(const int deltaX, const int deltaY);
 };

@@ -2,5 +2,5 @@
 #include <windows.h>
 
 namespace utilities {
-bool GetKeyState(int vKey);
+bool GetKeyState(const int vKey);
 }  // namespace utilities
