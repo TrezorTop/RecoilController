@@ -1,6 +1,6 @@
 #include "MouseController.h"
 void MouseController::MoveMouse(const int deltaX, const int deltaY) {
-	INPUT input = { 0 };
+	INPUT input;
 	input.type = INPUT_MOUSE;
 	input.mi.dwFlags = MOUSEEVENTF_MOVE;
 	input.mi.dx = deltaX;

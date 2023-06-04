@@ -1,3 +1,28 @@
 {
-  "test":  "test"
+  "profiles": {
+    "profile1": [
+      {
+        "deltaX": 0,
+        "deltaY": 20,
+        "time": 300
+      },
+      {
+        "deltaX": 0,
+        "deltaY": 10,
+        "time": 300
+      },
+      {
+        "deltaX": 5,
+        "deltaY": 5,
+        "time": 0
+      }
+    ],
+    "profile2": [
+      {
+        "deltaX": 0,
+        "deltaY": 30,
+        "time": 0
+      }
+    ]
+  }
 }
